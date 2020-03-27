@@ -1,1 +1,1 @@
-# Image Classification using the Naive Bayes Classifier
+# Sentiment Analysis using the Naive Bayes Classifier
