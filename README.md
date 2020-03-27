@@ -1,1 +1,1 @@
-# Naive-Bayes-Classifer
+# Image Classification using the Naive Bayes Classifier
