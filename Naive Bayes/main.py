@@ -12,7 +12,7 @@ class Reviews:
 
 	def __init__(self):
 		self.reviews = list()
-		self.log_prob = dict()
+		self.log_prob = dict() # To prevent underflow
 
 	def instantiate_reviews(self, sentiment): # sentiment = 1-> positive, 0-> negative
 		for key, value in reviews_dict.items():
