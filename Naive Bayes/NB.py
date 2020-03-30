@@ -27,8 +27,8 @@ def predict_sentiment(reviews, positive, negative):
 		if token in negative.log_prob:
 			negative.score += negative.log_prob[token]
 
-	print(f"Positive Score: {positive.score}")
-	print(f"Negative Score: {negative.score}")
+	# print(f"Positive Score: {positive.score}")
+	# print(f"Negative Score: {negative.score}")
 
 	if(positive.score > negative.score):
 		return 1
