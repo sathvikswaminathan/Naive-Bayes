@@ -58,7 +58,7 @@ sample_review = ["The movie was bad"]
 def main():
 	
 	sentiment = NB.predict_sentiment(sample_review, positve, negative)
-
+	print(sample_review[0])
 	if sentiment:
 		print("Positive review")
 	else:
