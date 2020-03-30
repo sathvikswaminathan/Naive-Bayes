@@ -20,9 +20,7 @@ def process_reviews(reviews):
 # 1-> positive, 0-> negative
 def predict_sentiment(reviews, positive, negative):
 	tokens = process_reviews(reviews)
-
-	print(tokens)
-
+	
 	for token in tokens:
 		if token in positive.log_prob:
 			positive.score +=  positive.log_prob[token]
