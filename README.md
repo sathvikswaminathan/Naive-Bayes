@@ -2,7 +2,7 @@
 
 The data to train this classifier comes from the Kaggle Challenge - [Sentiment Analysis on Movie Reviews](https://www.kaggle.com/c/sentiment-analysis-on-movie-reviews/data)
 
-This classifier exploits the Bayes theorem which allows us to calculate Conditional Probability.
+##This classifier exploits the Bayes theorem which allows us to calculate Conditional Probability.
 
 ## There are three classifications of the Naive Bayes Classifier:
 * Gaussian Naive Bayes Classifier:
