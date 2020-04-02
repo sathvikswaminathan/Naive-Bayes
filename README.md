@@ -5,13 +5,16 @@ The data to train this classifier comes from the Kaggle Challenge - [Sentiment A
 ## This classifier exploits the Bayes theorem which allows us to calculate Conditional Probability.
 
 ## There are three classifications of the Naive Bayes Classifier:
-* **Gaussian Naive Bayes Classifier:
+* **Gaussian Naive Bayes Classifier**:
+
 It is used when the feautures are continous. The feautures are assumed to have a normal distribution allowing us to calculate the probability for values we haven't seen in our data set before.
 
-* **Bernoulli Naive Bayes Classifier:
+* **Bernoulli Naive Bayes Classifier**:
+
 It is used when the features are binary ( 0 or 1, absent or present, good or bad, etc.)
 
-* **Multinomial Naive Bayes Classifier:
+* **Multinomial Naive Bayes Classifier**:
+
 It is used when the features are nothing but discrete counts. For example, in this repository, a Multinomial NB has been implemented as the count of words in the Movie reviews are discrete which act as the feautures for our model. 
 
 ## The Naive Bayes Classifier has two terms to it:
